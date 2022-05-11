@@ -1,6 +1,6 @@
 {
   "name": "typeorm-unique-on-database",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Decorator TypeORM for Unique Data on Database",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
