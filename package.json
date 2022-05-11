@@ -1,0 +1,48 @@
+{
+  "name": "typeorm-unique-on-database",
+  "version": "0.1.1",
+  "description": "Decorator TypeORM for Unique Data on Database",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "prepare": "npm run build",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hallss93/typeorm-unique-on-database.git"
+  },
+  "keywords": [
+    "typeorm",
+    "unique",
+    "node",
+    "ts",
+    "database"
+  ],
+  "author": "Hallison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hallss93/typeorm-unique-on-database/issues"
+  },
+  "homepage": "https://github.com/hallss93/typeorm-unique-on-database#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.11",
+    "codecov": "^3.8.2",
+    "dotenv": "^10.0.0",
+    "prettier": "^2.5.0",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.5.2"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "@nestjs/typeorm": "^8.0.2",
+    "class-validator": "^0.13.1",
+    "typeorm": "^0.2.38"
+  }
+}
